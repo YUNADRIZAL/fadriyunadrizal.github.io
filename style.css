@@ -1,15 +1,19 @@
+@media (max-width: 500px) {
+  .carousel-item img {
+    height: 500px;
+  }
+}
+.carousel-item img {
+  height: 670px;
+}
 .jumbotron {
-  padding-top: 6rem;
-  background-color: #bbb6b6;
+  background: #bbb6b6;
 }
 #projects {
   background-color: #bbb6b6;
 }
-/* #contact {
-  background-color: #bbb6b6;
-} */
 section {
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 .card > img {
   max-width: 100%;

@@ -27,7 +27,7 @@
   <body id="home">
     <!-- NAVBAR -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top text-uppercase"
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-uppercase"
     >
       <div class="container">
         <a class="navbar-brand fw-bolder" href="#">Fadri Yunadrizal</a>
@@ -50,6 +50,9 @@
               >
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#jumbotron">Profile</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
@@ -62,11 +65,52 @@
         </div>
       </div>
     </nav>
+    <!-- akhir navbar -->
 
-    <!-- AKHIR NAVBAR -->
+    <!-- image sliders -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
 
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bghome.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <!-- image sliders -->
     <!-- jumbotron -->
-    <section class="jumbotron text-center">
+    <section id="jumbotron" class="jumbotron text-center">
       <img
         src="img/fadri-4.jpeg"
         alt="Fadri Yunadrizal"
