@@ -3,6 +3,15 @@
     height: 500px;
   }
 }
+.navbar {
+  font-family: viga;
+  font-size: 25px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50% !important;
+}
 .carousel-item img {
   height: 670px;
 }
