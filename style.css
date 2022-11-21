@@ -3,14 +3,60 @@
     height: 400px !important;
   }
 }
+:root {
+  --primary-color: #bbb6b67b;
+  --secondary-color: #ffffff;
+  --tertiary-color: #000000;
+  --quaternary-color: rgba(0, 0, 0, 0.7);
+}
 
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #000000;
+  --tertiary-color: #ffffff;
+  --quaternary-color: #6b6de08c;
+}
+
+#home {
+  background-color: var(--secondary-color);
+}
+#icon {
+  width: 55px;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+#jumbotron h1,
+p {
+  color: var(--tertiary-color);
+}
+
+#about h2,
+p {
+  color: var(--tertiary-color);
+}
+#myskils h2,
+h4,
+ul {
+  color: var(--tertiary-color);
+}
+#projects h2,
+p {
+  color: var(--tertiary-color);
+}
+#contact h2,
+label {
+  color: var(--tertiary-color);
+}
 .navbar {
   font-family: viga;
-  background-color: rgba(32, 30, 30, 0.7);
+  background-color: var(--quaternary-color);
 }
 
 .jumbotron {
-  background: #bbb6b67b;
+  background: var(--primary-color);
   font-family: viga;
 }
 #about h2 {
@@ -23,7 +69,7 @@
 }
 
 #myskils {
-  background: #bbb6b67b;
+  background: var(--primary-color);
   font-family: viga;
 }
 #myskils h2 {
@@ -46,7 +92,7 @@
 }
 
 #projects {
-  background-color: #ffffff;
+  background-color: var(--secondary-color);
 }
 #projects h2 {
   padding-bottom: 3rem;
@@ -67,10 +113,11 @@ section {
 .card > img {
   max-width: 100%;
   max-height: 8rem;
+  border-radius: 20;
 }
 .card {
-  box-shadow: 10px 5px 5px black;
-  background: whitesmoke;
+  box-shadow: 10px 5px 5px var(--quaternary-color);
+  background: #6b6de0;
   transition: transform;
   cursor: grab;
   text-align: center;
@@ -82,10 +129,11 @@ section {
 .card-body {
   font-family: viga;
   font-size: 17px;
+  background-color: var(--secondary-color);
 }
 
 #contact {
-  background: #bbb6b67b;
+  background: var(--primary-color);
 }
 #contact h2 {
   font-family: viga;
@@ -101,5 +149,5 @@ section {
 }
 
 .footer {
-  background: rgba(32, 30, 30);
+  background: rgba(32, 30, 30, 0.7);
 }

@@ -35,7 +35,7 @@
 
   <body id="home">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-uppercase">
+    <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
       <div class="container">
         <a class="navbar-brand fw-bolder" href="#"
           >HOME<br />Fadri Yunadrizal</a
@@ -69,6 +69,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
+          <img src="img/moon.png" id="icon" />
         </div>
       </div>
     </nav>
@@ -124,11 +125,12 @@
         width="auto"
         class="rounded-circle img-thumbnail shadow"
       />
+
       <h1 class="display-4 fw-bold">Fadri Yunadrizal</h1>
-      <p class="lead text-black-50"></p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          fill="var(--secondary-color)"
           fill-opacity="1"
           d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,197.3C672,192,768,128,864,122.7C960,117,1056,171,1152,170.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -139,13 +141,13 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center text-uppercase fw-bold mb-3">
+        <div class="row text-center text-uppercase fw-bold mb-5">
           <div class="col" data-aos="fade-down">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4 text-black-50" data-aos="fade-right">
+          <div class="col-md-4" data-aos="fade-right">
             <p>
               Let me introduce myself, my name is Fadri Yunadrizal, usually
               called Fadri, I was born in Bogor on May 14, 1998. I am a graduate
@@ -169,7 +171,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#bbb6b67b"
+          fill="var(--primary-color)"
           fill-opacity="1"
           d="M0,128L48,112C96,96,192,64,288,90.7C384,117,480,203,576,202.7C672,203,768,117,864,80C960,43,1056,53,1152,80C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -223,7 +225,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          fill="var(--secondary-color)"
           fill-opacity="1"
           d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,197.3C672,192,768,128,864,122.7C960,117,1056,171,1152,170.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -325,7 +327,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#bbb6b67b"
+          fill="var(--primary-color)"
           fill-opacity="1"
           d="M0,32L24,64C48,96,96,160,144,176C192,192,240,160,288,165.3C336,171,384,213,432,234.7C480,256,528,256,576,240C624,224,672,192,720,154.7C768,117,816,75,864,64C912,53,960,75,1008,106.7C1056,139,1104,181,1152,181.3C1200,181,1248,139,1296,128C1344,117,1392,139,1416,149.3L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
         ></path>
@@ -416,13 +418,13 @@
           </div>
         </div>
       </div>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="rgba(32, 30, 30, 0.7)"
           fill-opacity="1"
           d="M0,0L34.3,37.3C68.6,75,137,149,206,160C274.3,171,343,117,411,101.3C480,85,549,107,617,138.7C685.7,171,754,213,823,192C891.4,171,960,85,1029,90.7C1097.1,96,1166,192,1234,208C1302.9,224,1371,160,1406,128L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
-      </svg> -->
+      </svg>
     </section>
     <!-- akhir contact -->
 
@@ -434,7 +436,7 @@
         <i class="bi bi-instagram text-light"></i>
         <a
           href="https://www.instagram.com/fadriyunadrizal/"
-          class="text-primary fw-bold"
+          class="text-white fw-bold"
           >Fadri Yunadrizal</a
         >
         <br />
@@ -539,6 +541,18 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src = "img/sun.png";
+        } else {
+          icon.src = "img/moon.png";
+        }
+      };
     </script>
   </body>
 </html>
