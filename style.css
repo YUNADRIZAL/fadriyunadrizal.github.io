@@ -1,29 +1,68 @@
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .carousel-item img {
-    height: 500px;
+    height: 400px !important;
   }
 }
+
 .navbar {
   font-family: viga;
-  font-size: 25px;
 }
+
+.jumbotron {
+  background: #bbb6b6;
+  font-family: viga;
+}
+#about h2 {
+  font-family: viga;
+  font-size: 25px;
+  font-weight: bold;
+}
+#about p {
+  font-family: viga;
+}
+
+#myskils {
+  background: #bbb6b6;
+  font-family: viga;
+}
+#myskils h2 {
+  font-family: viga;
+  font-size: 25px;
+  font-weight: bold;
+}
+#myskils h4 {
+  font-family: viga;
+  font-size: 20px;
+}
+
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 .carousel-item img {
   height: 670px;
 }
-.jumbotron {
-  background: #bbb6b6;
-}
+
 #projects {
-  background-color: #bbb6b6;
+  background-color: #ffffff;
 }
+#projects h2 {
+  padding-bottom: 3rem;
+  font-family: viga;
+  font-size: 25px;
+  font-weight: bold;
+}
+#projects .p {
+  padding-bottom: 1rem;
+  font-family: viga;
+  font-size: 20px;
+}
+
 section {
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
+
 .card > img {
   max-width: 100%;
   max-height: 8rem;
@@ -38,4 +77,20 @@ section {
 }
 .card:hover {
   transform: scale(1.2);
+}
+.card-body {
+  font-family: viga;
+  font-size: 17px;
+}
+#contact h2 {
+  font-family: viga;
+  font-size: 25px;
+}
+
+#contact label {
+  font-family: viga;
+}
+
+#contact button {
+  font-family: viga;
 }
